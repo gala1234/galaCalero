@@ -1,7 +1,7 @@
 {
-	"name": "AdalabWebStarterKit",
+	"name": "galasPersonalWeb",
 	"version": "1.0.0",
-	"description": "Adalab web starter kit",
+	"description": "portfolio signature...",
 	"dependencies": {
 		"browser-sync": "*",
 		"gulp-autoprefixer": "*",
@@ -25,9 +25,9 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@github.com:Adalab/Adalab-web-starter-kit.git"
+		"url": "git+ssh://git@github.com:gala1234/galaCalero"
 	},
 	"author": "Adalab",
 	"license": "MIT",
-	"homepage": "https://github.com/Adalab/Adalab-web-starter-kit"
+	"homepage": "https://gala1234.github.io/galaCalero"
 }
