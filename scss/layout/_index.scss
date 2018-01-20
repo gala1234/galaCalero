@@ -1,0 +1,44 @@
+
+
+.main {
+	background-color: $colorNeutral;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0 4%;
+}
+
+.main__title {
+	color: $colorWatermelon;
+	font-family: $fontHandWrite;
+	font-weight: $fontWeightHeavy;
+	font-size: 2em;
+	margin: 0;
+	text-align: center;
+}
+
+.main__flower {
+ height: 70px;
+ width: auto;
+ margin: 5% 0;
+}
+
+.main__section {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.main__section__title {
+	font-size: 1em;
+	color: $colorCarbon;
+	grid-column: 3 span;
+}
+
+.main__section__article {
+	grid-column: 1 span;
+	justify-self: center;
+	align-self: center;
+}
