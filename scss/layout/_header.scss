@@ -1,0 +1,27 @@
+.header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 70px;
+	border-bottom: 1px $colorCarbon solid;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	@media (min-width: 400px) {
+			right: 0;
+			width: 70px;
+			height: 100vh;
+			border-bottom: none;
+			border-left: 1px $colorCarbon solid;
+		}
+}
+
+.header__paragraph {
+	display: inline;
+	color: $colorWatermelon;
+	font-family: $fontHandWrite;
+	font-weight: $fontWeightHeavy;
+	font-size: 1em;
+	text-align: center;
+}

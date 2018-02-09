@@ -2,12 +2,11 @@
 
 .main {
 	background-color: $colorNeutral;
-	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 0 4%;
+	padding: 0;
 }
 
 .main__title {
