@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Pacifico");
 
-* {
+.body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
@@ -9,186 +9,42 @@
   font-family: "Open Sans Condensed", sans-serif;
 }
 
-.main {
-  background-color: #efefef;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0;
-}
-
-.main__title {
-  color: #ff3b3f;
-  font-family: "Pacifico", cursive;
-  font-weight: 700;
-  font-size: 2em;
-  margin: 0;
-  text-align: center;
-}
-
-.main__flower {
-  height: 70px;
-  width: auto;
-  margin: 5% 0;
-}
-
-.main__section {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.main__section__title {
-  font-size: 1em;
-  color: #a9a9a9;
-  grid-column: 3 span;
-}
-
-.main__section__article {
-  grid-column: 1 span;
-  justify-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-}
-
-.section {
-  width: 100%;
+.page {
   height: 100vh;
-  padding: 70px 0 0 0;
-}
-
-.section__hello {
-  background-color: #a9a9a9;
-}
-
-.section__pilosophy {
-  background-color: #caebf2;
-}
-
-.section__porfolio {
-  background-color: #ff3b3f;
-}
-
-.section__interest {
-  background-color: #efefef;
-}
-
-.section__resume {
-  background-color: #a9a9a9;
-}
-
-.header {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 70px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.myName__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 90px;
-  height: 100%;
-  border-right: 1px #a9a9a9 solid;
-}
-
-.header__myName {
-  display: inline;
-  color: #ff3b3f;
-  font-family: "Pacifico", cursive;
-  font-weight: 700;
-  font-size: 1em;
-  margin: 0 20px;
-}
-
-.nav {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  font-family: "Open Sans Condensed", sans-serif;
-}
-
-.nav__list {
-  list-style-type: none;
-  margin: 0;
+  border: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.nav__item {
-  display: inline;
-  padding: 0 10px;
-  line-height: 20px;
+.page--one {
+  background-color: #DE2E4C;
 }
 
-@media (min-width: 400px) {
-  .section {
-    padding: 0 70px 0 0;
-  }
+.page--two {
+  background-color: #E9E169;
+}
 
-  .header {
-    right: 0;
-    width: 70px;
-    height: 100vh;
-    border-bottom: none;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
+.page--three {
+  background-color: #6FCF6F;
+}
 
-  .myName__container {
-    border-right: none;
-    border-bottom: 1px #a9a9a9 solid;
-    width: 70px;
-    height: 90px;
-  }
+.page--four {
+  background-color: #3BC8F7;
+}
 
-  .header__myName {
-    margin: 20px 0;
-  }
+.page--five {
+  background-color: #C9A2E1;
+}
 
-  .nav {
-    height: 100%;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
+.page--six {
+  background-color: #EA5BAF;
+}
 
-  .nav__item {
-    display: block;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding: 10px 0;
-  }
+.page--one__photo {
+  background-image: url(../img/galaPhoto.jpg);
+  height: 100px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,43 +1,24 @@
-
-
-.main {
-	background-color: $colorNeutral;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+.page {
+	height: 100vh;
+	border: 0;
 	padding: 0;
+	display: flex;
 }
-
-.main__title {
-	color: $colorWatermelon;
-	font-family: $fontHandWrite;
-	font-weight: $fontWeightHeavy;
-	font-size: 2em;
-	margin: 0;
-	text-align: center;
+.page--one {
+	background-color: $colorRedDark;
 }
-
-.main__flower {
- height: 70px;
- width: auto;
- margin: 5% 0;
+.page--two {
+	background-color: $colorYellow;
 }
-
-.main__section {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-
+.page--three {
+	background-color: $colorGreenDark;
 }
-
-.main__section__title {
-	font-size: 1em;
-	color: $colorCarbon;
-	grid-column: 3 span;
+.page--four {
+	background-color: $colorTurquoise;
 }
-
-.main__section__article {
-	grid-column: 1 span;
-	justify-self: center;
-	align-self: center;
+.page--five {
+	background-color: $colorPurple;
+}
+.page--six {
+	background-color: $colorPinkDark;
 }
